@@ -41,7 +41,7 @@ export const experiencesData = [
     title: 'Front-Ent Developer Trainee',
     location: 'Remote',
     description:
-      'Almost from the very beginning of the Full-Stack course, I had the opportunity to become a Front-End Trainee.',
+      'Almost from the very beginning of the Full-Stack course, I had the opportunity to become a Front-End Trainee. Since then, my responsibilities and accomplishments have included: Use React to create user-friendly components, Pursued ongoing education in emerging technologies, Demonstrate strong attention to detail in ensuring pixel-perfect layouts, Integrating new tools and libraries to enhance project efficiency',
     icon: React.createElement(FaReact),
     date: 'Dec 2022 - Present',
   },
@@ -49,7 +49,7 @@ export const experiencesData = [
     title: 'Full-Stack Developer Course',
     location: 'Remote',
     description:
-      'Throughout the course, I explored a range of topics, including HTML, CSS, JS, React, Redux, Node.js, and many more. I successfully completed both individual and group projects, taking on the role of Team Lead to enhance my leadership and collaborative skills.',
+      'Throughout the course, I explored a range of topics, including HTML, CSS, JS, React, Redux, Node.js and many more. I successfully completed both individual and group projects, taking on the role of Team Lead to enhance my leadership and collaborative skills.',
     icon: React.createElement(LuGraduationCap),
     date: 'Dec 2022 - Oct 2023',
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: 'Electrician',
     location: 'Cherkasy, Ukraine',
     description:
-      'While working as an electrician at a new company I was a results-oriented electrician with a track record in troubleshooting electrical issues, adept at diagnosing problems and implementing effective solutions. Additionally, I was responsible for the installation, maintenance, and repair of electrical systems, ensuring optimal functionality. Throughout my tenure, I have demonstrated a strong commitment to safety, precision, and client satisfaction.',
+      'While working as an electrician at a new company I was a results-oriented electrician with a track record in troubleshooting electrical issues, adept at diagnosing problems and implementing effective solutions. Additionally, I was responsible for the installation, maintenance and repair of electrical systems, ensuring optimal functionality. Throughout my tenure, I have demonstrated a strong commitment to safety, precision and client satisfaction.',
     icon: React.createElement(CgWorkAlt),
     date: 'Feb 2020 - Apr 2022',
   },
@@ -90,7 +90,7 @@ export const projectsData = [
   {
     title: 'Drink Master',
     description:
-      "This project was done by the development team. My role was a Full-stack developer. Drink Master is an interactive book of cocktail recipes. It has features like authentication, search drinks, filtering, pagination, adding one's drink, saving/removing from the favorite list.",
+      "Drink Master is an interactive book of cocktail recipes. It has features like authentication, search drinks, filtering, pagination, adding one's drink, saving/removing from the favorite list.",
     tags: [
       'React',
       'Redux',
@@ -130,7 +130,7 @@ export const projectsData = [
   {
     title: 'Bookshelf',
     description:
-      'This project was done by the development team. This is an application where you can find a book for any taste and buy it.',
+      'This is an application where you can find a book for any taste and buy it.',
     tags: ['JS', 'HTML/CSS', 'Firebase'],
     imageUrl: bookshelfImg,
   },
