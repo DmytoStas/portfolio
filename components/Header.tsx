@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import clsx from 'clsx';
 
 import { links } from '@/lib/data';
-import { useActiveSectionContext } from '@/context/ActiveSectionContext';
+import { useActiveSectionContext } from '@/context/ActiveSectionContextProvider';
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
@@ -31,7 +31,7 @@ export default function Header() {
             >
               <Link
                 className={clsx(
-                  'flex w-full items-center justify-center px-3 py-3 transition hover:text-gray-950  dark:hover:text-gray-300',
+                  'group flex w-full items-center justify-center px-3 py-3 transition hover:text-gray-950  dark:hover:text-gray-200',
                   {
                     'text-gray-950 dark:text-gray-200':
                       activeSection === link.name,
@@ -44,6 +44,8 @@ export default function Header() {
                 }}
               >
                 {link.name}
+
+                <span className="absolute inset-0 -z-10 hidden rounded-full bg-gray-100 transition-all group-hover:block dark:bg-gray-800"></span>
 
                 {activeSection === link.name && (
                   <motion.span
