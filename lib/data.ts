@@ -41,7 +41,7 @@ export const experiencesData = [
     title: 'Front-Ent Developer Trainee',
     location: 'Remote',
     description:
-      'Almost from the very beginning of the Full-Stack course, I had the opportunity to become a Front-End Trainee. Since then, my responsibilities and accomplishments have included: Use React to create user-friendly components, Pursued ongoing education in emerging technologies, Demonstrate strong attention to detail in ensuring pixel-perfect layouts, Integrating new tools and libraries to enhance project efficiency',
+      'Almost from the very beginning of the Full-Stack course, I had the opportunity to become a Front-End Trainee. Since then, my responsibilities and accomplishments have included: Using  React to create user-friendly components, Pursuing ongoing education in emerging technologies, Demonstrate strong attention to detail in ensuring pixel-perfect layouts, Integrating new tools and libraries to enhance project efficiency',
     icon: React.createElement(FaReact),
     date: 'Dec 2022 - Present',
   },
@@ -73,7 +73,7 @@ export const experiencesData = [
     title: 'Electric power engineer',
     location: 'Kropyvnytskyi, Ukraine',
     description:
-      'During my studies there was a strong emphasis on practical skills through laboratory work and engineering projects. The acquired experience allows solving complex technical problems and developing new technologies.',
+      'During my studies, there was a strong emphasis on practical skills through laboratory work and engineering projects. The acquired experience allows solving complex technical problems and developing new technologies.',
     icon: React.createElement(LuGraduationCap),
     date: 'Sep 2015 - Dec 2018',
   },
@@ -83,14 +83,16 @@ export const projectsData = [
   {
     title: 'RENT-A-CAR',
     description:
-      'RENT-A-CAR is an application for people who are looking for a rental car. This user-friendly app, designed to be convenient in mind, offers enjoyable experience for renting the perfect vehicle for your needs.',
+      'RENT-A-CAR is an application for people who are looking for a rental car. This user-friendly app, designed to be convenient in mind, offers an enjoyable experience for renting the perfect vehicle for your needs.',
     tags: ['React', 'Redux', 'JS', 'Axios', 'HTML/CSS'],
     imageUrl: rentACarImg,
+    gitHubURL: 'https://github.com/DmytoStas/rent-a-car',
+    projectURL: 'https://dmytostas.github.io/rent-a-car/',
   },
   {
     title: 'Drink Master',
     description:
-      "Drink Master is an interactive book of cocktail recipes. It has features like authentication, search drinks, filtering, pagination, adding one's drink, saving/removing from the favorite list.",
+      "Drink Master is an interactive book of cocktail recipes. It has features like authentication, search drinks, filtering, pagination, adding one's drink and saving/removing from the favorite list.",
     tags: [
       'React',
       'Redux',
@@ -103,13 +105,18 @@ export const projectsData = [
       'MateriaUI',
     ],
     imageUrl: drinkMasterImg,
+    gitHubURL: 'https://github.com/Zyabrik10/team-project-cocktails-website',
+    projectURL:
+      'https://zyabrik10.github.io/team-project-cocktails-website/welcome',
   },
   {
     title: 'Phonebook API',
     description:
-      "My first back-end project was implemented for the Phonebook Application. This API can process sign-up, sign-in, log-out, update user's subscription plan, update user's avatar and create/update/remove/filter contacts.",
+      "My first back-end project was implemented for the Phonebook Application. This API can process sign-up, sign-in, log-out, update the user's subscription plan/ avatar and create/update/remove/filter contacts.",
     tags: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Joi', 'Multer'],
     imageUrl: phonebookAPIImg,
+    gitHubURL: 'https://github.com/DmytoStas/phonebook-api',
+    projectURL: '',
   },
   {
     title: 'Phonebook',
@@ -126,6 +133,8 @@ export const projectsData = [
       'HTML/CSS',
     ],
     imageUrl: phonebookImg,
+    gitHubURL: 'https://github.com/DmytoStas/phonebook-app-react',
+    projectURL: 'https://dmytostas.github.io/phonebook-app-react/',
   },
   {
     title: 'Bookshelf',
@@ -133,6 +142,8 @@ export const projectsData = [
       'This is an application where you can find a book for any taste and buy it.',
     tags: ['JS', 'HTML/CSS', 'Firebase'],
     imageUrl: bookshelfImg,
+    gitHubURL: 'https://github.com/Kamilucha/bookshelf-js',
+    projectURL: 'https://kamilucha.github.io/bookshelf-js/',
   },
   {
     title: 'MIMINO',
@@ -140,6 +151,8 @@ export const projectsData = [
       'It is a landing website where people can get to know the hotel and restaurant complex and learn about the service they can get there.',
     tags: ['JS', 'HTML/CSS'],
     imageUrl: miminoImg,
+    gitHubURL: 'https://github.com/DmytoStas/mimino',
+    projectURL: 'https://dmytostas.github.io/mimino/',
   },
 ] as const;
 

@@ -6,6 +6,8 @@ import { motion } from 'framer-motion';
 
 import { projectsData } from '@/lib/data';
 import Image from 'next/image';
+import { FaGithubSquare } from 'react-icons/fa';
+import { CgWebsite } from 'react-icons/cg';
 
 type ProjectItemProps = (typeof projectsData)[number];
 
@@ -14,6 +16,8 @@ export default function ProjectItem({
   description,
   tags,
   imageUrl,
+  gitHubURL,
+  projectURL,
 }: ProjectItemProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -31,8 +35,8 @@ export default function ProjectItem({
         opacity: opacityProgress,
       }}
     >
-      <div className="relative max-w-[42rem] cursor-pointer overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition group-hover:bg-gray-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:h-[20rem]">
-        <div className="flex h-full flex-col px-5 pb-6 pt-4 sm:max-w-[50%] sm:pl-7 sm:pr-2 sm:pt-6 sm:group-even:ml-[19.5rem] ">
+      <div className="relative max-w-[42rem] overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition group-hover:bg-gray-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:h-[20rem]">
+        <div className="relative flex h-full flex-col px-5 pb-6 pt-4 sm:max-w-[50%] sm:pl-7 sm:pr-2 sm:pt-6 sm:group-even:ml-[19.5rem] ">
           <h3 className="text-2xl font-semibold">{title}</h3>
 
           <p className="mt-2 leading-6 text-gray-700 dark:text-white/70">
@@ -49,6 +53,28 @@ export default function ProjectItem({
               </li>
             ))}
           </ul>
+
+          <div className="absolute right-2 top-6 flex cursor-pointer gap-2">
+            {projectURL && (
+              <a
+                href={projectURL}
+                target="_blank"
+                rel="noopener noreferer nofollow"
+                className="borderBlack flex items-center gap-2 rounded-full bg-white p-1 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+              >
+                <CgWebsite />
+              </a>
+            )}
+
+            <a
+              href={gitHubURL}
+              target="_blank"
+              rel="noopener noreferer nofollow"
+              className="borderBlack flex items-center gap-2 rounded-full bg-white p-1 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+            >
+              <FaGithubSquare />
+            </a>
+          </div>
         </div>
 
         <Image
