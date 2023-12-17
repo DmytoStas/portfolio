@@ -1,8 +1,9 @@
 'use client';
 
 import { projectsData } from '@/lib/data';
-import { ProjectItem, SectionHeading } from './index';
+import { ProjectItem } from './index';
 import { useSectionInView } from '@/lib/hooks';
+import SectionHeading from './SectionHeading';
 
 export default function Projects() {
   const { ref } = useSectionInView('Projects', 0.3);

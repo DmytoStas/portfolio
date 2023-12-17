@@ -5,6 +5,7 @@ import {
   SectionDivider,
   Skills,
   Experience,
+  Contact,
 } from '@/components';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <Contact />
     </main>
   );
 }
