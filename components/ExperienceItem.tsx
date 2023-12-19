@@ -3,27 +3,25 @@ import 'react-vertical-timeline-component/style.min.css';
 import { useInView } from 'react-intersection-observer';
 
 import { useTheme } from '@/context/ThemeContextProvider';
+import { experiencesData } from '@/lib/data';
 
-type ExperienceItemProps = {
-  item: {
-    date: string;
-    icon: React.ReactNode;
-    title: string;
-    location: string;
-    description: string;
-  };
-};
+type ExperienceItemProps = (typeof experiencesData)[number];
 
-export default function ExperienceItem({ item }: ExperienceItemProps) {
+export default function ExperienceItem({
+  id,
+  date,
+  icon,
+  title,
+  location,
+  description,
+}: ExperienceItemProps) {
   const { ref, inView } = useInView({ triggerOnce: true });
   const { theme } = useTheme();
-
-  const { date, icon, title, location, description } = item;
 
   return (
     <div ref={ref} className="vertical-timeline-element">
       <VerticalTimelineElement
-        id={date}
+        id={id}
         visible={inView}
         contentStyle={{
           background:

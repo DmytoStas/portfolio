@@ -16,8 +16,8 @@ export default function Experience() {
       <SectionHeading>My Experience</SectionHeading>
 
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
-          <ExperienceItem key={index} item={item} />
+        {experiencesData.map(item => (
+          <ExperienceItem key={item.id} item={item} />
         ))}
       </VerticalTimeline>
     </section>

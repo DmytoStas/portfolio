@@ -38,6 +38,7 @@ export const links = [
 
 export const experiencesData = [
   {
+    id: '5',
     title: 'Front-Ent Developer Trainee',
     location: 'Remote',
     description:
@@ -46,6 +47,7 @@ export const experiencesData = [
     date: 'Dec 2022 - Present',
   },
   {
+    id: '4',
     title: 'Full-Stack Developer Course',
     location: 'Remote',
     description:
@@ -54,6 +56,7 @@ export const experiencesData = [
     date: 'Dec 2022 - Oct 2023',
   },
   {
+    id: '3',
     title: 'Electrician',
     location: 'Cherkasy, Ukraine',
     description:
@@ -62,6 +65,7 @@ export const experiencesData = [
     date: 'Feb 2020 - Apr 2022',
   },
   {
+    id: '2',
     title: 'Electrician',
     location: 'Shpola, Ukraine',
     description:
@@ -70,6 +74,7 @@ export const experiencesData = [
     date: 'Feb 2016 - Dec 2019',
   },
   {
+    id: '1',
     title: 'Electric power engineer',
     location: 'Kropyvnytskyi, Ukraine',
     description:
