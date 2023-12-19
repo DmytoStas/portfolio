@@ -23,6 +23,7 @@ export default function ExperienceItem({ item }: ExperienceItemProps) {
   return (
     <div ref={ref} className="vertical-timeline-element">
       <VerticalTimelineElement
+        id={date}
         visible={inView}
         contentStyle={{
           background:
