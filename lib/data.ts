@@ -8,6 +8,8 @@ import miminoImg from '@/public/Mimino.png';
 import phonebookAPIImg from '@/public/Phonebook-API.png';
 import phonebookImg from '@/public/Phonebook.png';
 import rentACarImg from '@/public/Rent-a-car.png';
+import wordAnalytics from '@/public/WordAnalytics.jpg';
+import trekBag from '@/public/TrekBag.jpg';
 
 export const links = [
   {
@@ -113,6 +115,24 @@ export const projectsData = [
     gitHubURL: 'https://github.com/Zyabrik10/team-project-cocktails-website',
     projectURL:
       'https://zyabrik10.github.io/team-project-cocktails-website/welcome',
+  },
+  {
+    title: 'TrekBag',
+    description:
+      "TrekBag is a simple, convenient and useful application that won't let you forget the things you need for your trip. Add, remove, mark, sort and reset your list - it's all about TrekBag",
+    tags: ['React', 'JS', 'HTML/CSS', 'Zustand', 'Vite'],
+    imageUrl: trekBag,
+    gitHubURL: 'https://github.com/DmytoStas/trekbag',
+    projectURL: 'https://dmytostas.github.io/trekbag/',
+  },
+  {
+    title: 'Word Analytics',
+    description:
+      '"Word Analytics" is a reliable assistant in the world of modern textual content. Use this app to efficiently count words in all your written content, from social media to corporate documents.',
+    tags: ['React', 'JS', 'HTML/CSS', 'Vite'],
+    imageUrl: wordAnalytics,
+    gitHubURL: 'https://github.com/DmytoStas/word-analytics',
+    projectURL: 'https://dmytostas.github.io/word-analytics/',
   },
   {
     title: 'Phonebook API',
