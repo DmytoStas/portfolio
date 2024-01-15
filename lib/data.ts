@@ -8,6 +8,8 @@ import miminoImg from '@/public/Mimino.png';
 import phonebookAPIImg from '@/public/Phonebook-API.png';
 import phonebookImg from '@/public/Phonebook.png';
 import rentACarImg from '@/public/Rent-a-car.png';
+import corpComment from '@/public/CorpComment.jpg';
+import rmtJob from '@/public/rmtJob.jpg';
 import wordAnalytics from '@/public/WordAnalytics.jpg';
 import trekBag from '@/public/TrekBag.jpg';
 
@@ -87,6 +89,31 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'rmtJob',
+    description:
+      'Discover a complete platform built for remote opportunities that connect you to various remote IT development roles. Easily view, apply and bookmark job postings from your home. Advance your career with our convenient remote job search app.',
+    tags: [
+      'React',
+      'TypeScript',
+      'React Query',
+      'Contex-API',
+      'HTML/CSS',
+      'Vite',
+    ],
+    imageUrl: rmtJob,
+    gitHubURL: 'https://github.com/DmytoStas/rmtJob',
+    projectURL: 'https://dmytostas.github.io/rmtJob/',
+  },
+  {
+    title: 'CorpComment',
+    description:
+      'CorpComment is an intuitive feedback application tailored for modern service companies. Simplifying communication and collaboration, it offers a seamless platform for users to exchange comments and feedback efficiently.',
+    tags: ['React', 'Zustand', 'TypeScript', 'HTML/CSS', 'Vite'],
+    imageUrl: corpComment,
+    gitHubURL: 'https://github.com/DmytoStas/corp-comment',
+    projectURL: 'https://dmytostas.github.io/corp-comment/',
+  },
   {
     title: 'RENT-A-CAR',
     description:
