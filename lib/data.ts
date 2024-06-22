@@ -12,6 +12,7 @@ import corpComment from '@/public/CorpComment.jpg';
 import rmtJob from '@/public/rmtJob.jpg';
 import wordAnalytics from '@/public/WordAnalytics.jpg';
 import trekBag from '@/public/TrekBag.jpg';
+import petSoft from '@/public/PetSoft.jpg';
 
 export const links = [
   {
@@ -89,6 +90,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'PetSoft',
+    description:
+      'Welcome to PetSoft, the innovative solution for managing your animal shelter. Designed for efficiency and user-friendliness, PetSoft streamlines tracking animals, ensuring their safety and well-being while making shelter management easier.',
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'TailwindCSS',
+      'Prisma',
+      'Next Auth',
+      'Zod ',
+    ],
+    imageUrl: petSoft,
+    gitHubURL: 'https://github.com/DmytoStas/petsoft',
+    projectURL: 'https://petsoft-ashen.vercel.app/',
+  },
   {
     title: 'rmtJob',
     description:
