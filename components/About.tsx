@@ -38,7 +38,7 @@ export default function About() {
       <p>
         Right now, I`m searching for a{' '}
         <span className="font-medium italic">
-          full-time position as a junior front-end developer
+          full-time position as a junior full-stack developer
         </span>{' '}
         where I can continue to develop personally and contribute to the success
         of the company.

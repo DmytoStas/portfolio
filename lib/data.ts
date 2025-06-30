@@ -43,13 +43,22 @@ export const links = [
 
 export const experiencesData = [
   {
+    id: '6',
+    title: 'Freelance Front-end developer',
+    location: 'Remote',
+    description:
+      'Worked as a freelance Front-end Developer, creating scalable and reusable UI components using React and TypeScript. Delivered interactive, high-performance web interfaces and collaborated directly with clients to build custom solutions tailored to their business needs.',
+    icon: React.createElement(FaReact),
+    date: 'Sep 2024 - Dec 2024',
+  },
+  {
     id: '5',
     title: 'Front-Ent Developer Trainee',
     location: 'Remote',
     description:
       'Almost from the very beginning of the Full-Stack course, I had the opportunity to become a Front-End Trainee. Since then, I specialize in developing user-friendly and interactive components for web applications using React. I am committed to continuous learning and staying abreast of emerging technologies. With a keen eye for detail, I ensure the creation of pixel-perfect layouts. I actively contribute to projects by integrating new tools and libraries, focusing on enhancing overall project efficiency and maintainability. Collaborating with team members, I play a vital role in the development of scalable front-end solutions. Additionally, I integrate external APIs into React applications, enabling the communication of dynamic data between the front end and back end.',
     icon: React.createElement(FaReact),
-    date: 'Dec 2022 - Present',
+    date: 'Dec 2022 - May 2024',
   },
   {
     id: '4',
@@ -245,4 +254,11 @@ export const skillsData = [
   'Rest API',
   'React Query',
   'Axios',
+  'Сommunication',
+  'Collaboration',
+  'Problem-solving',
+  'Attention to detail',
+  'Self-motivated',
+  'Team player',
+  'Fast learner',
 ] as const;
